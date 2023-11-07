@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=16.20.1"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -17,4 +20,6 @@
     "express-session": "^1.17.3",
     "mongoose": "^8.0.0"
   }
+  
 }
+
