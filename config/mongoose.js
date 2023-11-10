@@ -3,10 +3,10 @@ require('dotenv').config()
 
 // require mongoose
 const mongoose = require('mongoose');
-
+const pwd = encodeURIComponent("sachinsb");
 
 //  connect mongoose
-mongoose.connect( `mongodb://127.0.0.1:27017/habit-tracker` );
+mongoose.connect( `mongodb+srv://sachinsb08:${pwd}@habit-tracker.530wo4g.mongodb.net/?retryWrites=true&w=majority` );
 mongoose.set('strictQuery', false);
 const db = mongoose.connection;
 
