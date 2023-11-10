@@ -15,4 +15,4 @@ Also user can change any of the previous days status i.e.  change the status of 
 TECH-STACK:
 Node.js ejs express mongoose
 
-Hosted Link :
+Hosted Link : https://habit-tracker-sqvh.onrender.com
