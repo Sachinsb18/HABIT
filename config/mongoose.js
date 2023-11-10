@@ -3,10 +3,11 @@ require('dotenv').config()
 
 // require mongoose
 const mongoose = require('mongoose');
-mongoose.set('strictQuery', false);
+
 
 //  connect mongoose
-mongoose.connect(`mongodb://127.0.0.1:27017/Habit_Tracker`);
+mongoose.connect( `mongodb://127.0.0.1:27017/habit-tracker` );
+mongoose.set('strictQuery', false);
 const db = mongoose.connection;
 
 // mongoose connection | error
